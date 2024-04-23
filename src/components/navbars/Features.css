@@ -3,6 +3,7 @@
   height: 300px;
   background-color: aliceblue;
   transform: translateX(600px);
+  z-index: 2;
 }
 
 .features ul,

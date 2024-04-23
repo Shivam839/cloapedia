@@ -1,0 +1,25 @@
+.advertisement {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 20px;
+}
+.adv {
+  width: 50%;
+  height: 121px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edeff2;
+  position: relative;
+  padding: 0;
+}
+.adv p {
+  text-align: center;
+  position: absolute;
+  right: -48px;
+  bottom: 32px;
+  background-color: aqua;
+  width: 120px;
+  transform: rotate(90deg);
+}

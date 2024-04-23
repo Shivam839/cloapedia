@@ -5,6 +5,7 @@
   transform: translateX(220px);
   display: flex;
   box-sizing: border-box;
+  z-index: 2;
 }
 .catagories .listitems {
   width: 20%;

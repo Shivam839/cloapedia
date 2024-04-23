@@ -1,0 +1,48 @@
+.section_b {
+  width: 100vw;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.lifestyle {
+  width: 40%;
+  padding: 20px;
+  /* border: 1px solid red; */
+}
+.lifestyle .blog {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.fashion {
+  width: 40%;
+  padding: 20px;
+  height: 1070px;
+  /* border: 1px solid red; */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+span {
+  color: white;
+  padding: 0.1rem 1.3rem;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.lifestyle span {
+  background-color: #2ad2c9;
+}
+
+.fashion span {
+  background-color: #deacca;
+}
+.fashion .post {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
