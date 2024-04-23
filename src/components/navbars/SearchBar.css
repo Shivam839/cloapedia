@@ -1,0 +1,24 @@
+.seachcard {
+  width: 100vw;
+  height: 100px;
+  background: #202020 none repeat scroll 0 0;
+  padding: 0 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seachcard input {
+  width: 90%;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: none;
+  color: #555555;
+  font-size: 24px;
+  outline: none;
+  letter-spacing: 0.3px;
+  line-height: 1;
+}
+.searchBtn {
+  width: 5%;
+  padding: 10px;
+  border-left: 1px solid #555555;
+}

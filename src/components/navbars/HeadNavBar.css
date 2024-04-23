@@ -1,0 +1,41 @@
+.headnav {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  height: 60px;
+  border-bottom: 0.01px dotted rgb(83, 81, 81);
+  padding: 0 30px;
+}
+.headnav div ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.iconList {
+  width: 12%;
+}
+.writeList {
+  width: 24%;
+}
+.searchBar {
+  width: 8%;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.iconList .headnav div ul li svg {
+  margin: 0 5px;
+}
+.writeList ul li svg,
+.searchBar svg {
+  margin: 10px;
+  font-size: 0.8rem;
+}
+/* Define animation keyframes */

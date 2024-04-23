@@ -1,0 +1,6 @@
+.section1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+  grid-template-rows: repeat(1fr, 2);
+}

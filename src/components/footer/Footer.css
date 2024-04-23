@@ -1,0 +1,124 @@
+.footer {
+  width: 100vw;
+  height: 880px;
+  margin: 0;
+  padding: 20px;
+  background: url(/image/footer.png) repeat-x center bottom #edeff2;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+
+.post {
+  display: flex;
+  width: 100%;
+  max-width: 100%; /* Ensure it doesn't exceed the footer width */
+  justify-content: space-around;
+  align-items: center; /* Center horizontally */
+}
+
+.RecentPost {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: flex-start; /* Align items to the left */
+  justify-content: space-between;
+}
+
+.RecentPost h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem; /* Add some space below the heading */
+  align-self: flex-start; /* Align h2 to the left */
+}
+
+.RecentPost .postCard {
+  width: 100%; /* Ensure the postCard fills the container */
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem; /* Add some space between each post card */
+}
+
+.RecentPost .postCard img {
+  padding: 10px;
+  background-color: #fff;
+  width: 20%;
+  height: 100%; /* Ensure the image fills the height of the container */
+  object-fit: cover; /* Prevent distortion of images */
+}
+
+.RecentPost .postCard .info {
+  padding: 10px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.RecentPost .postCard .info h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem; /* Add some space below the title */
+}
+.RecentPost ul {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.RecentPost ul li a {
+  margin-top: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px dotted black;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+}
+.newsletter {
+  padding: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.newsletter img {
+  width: 40%;
+}
+.newsletter p {
+  width: 90%;
+  font-weight: 350;
+  text-align: center;
+}
+.newsletter p svg {
+  margin: 10px 10px;
+}
+.newsletter .inputEmail {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+.newsletter .inputEmail input {
+  width: 60%;
+  height: 55px;
+  outline: none;
+  padding: 5px 20px;
+  border: none;
+  font-size: 0.9rem;
+}
+.newsletter .inputEmail .suscribe {
+  width: 30%;
+  height: 55px;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter .inputEmail .suscribe svg {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-left: 15px;
+}
