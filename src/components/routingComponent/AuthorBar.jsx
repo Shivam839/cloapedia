@@ -20,6 +20,7 @@ function AuthorBar({ name }) {
             fontWeight: "300",
             fontSize: "0.9rem",
             fontFamily: "monospace",
+            margin: "0",
           }}
         >
           Nulla felis eros, varius sit amet volutpat non.

@@ -2,17 +2,17 @@
   background: #edeff2 none repeat scroll 0 0;
   font-size: 16px;
   line-height: 1;
-  margin: 10px;
-  width: 7%;
+  width: 19%;
   height: 20px;
   position: absolute;
-  top: -20px;
+  top: -10px;
+  left: 40px;
 }
 .authorBox {
   width: 100%;
   display: flex;
   border: 1px dotted #dadada;
-  padding: 30px;
+  /* padding: 30px; */
   position: relative;
   margin-bottom: 20px;
 }
@@ -20,6 +20,7 @@
   width: 100%;
   display: flex;
   margin: 20px;
+  justify-content: space-evenly;
 }
 .authorProfile img {
   width: 100px;
@@ -27,11 +28,11 @@
 }
 .authorInfo {
   width: 60%;
-  padding: 30px;
+  /* padding: 30px; */
 }
 li {
   margin-left: 10px;
 }
 li:first-child {
-  margin-left: 10px0;
+  margin-left: 0;
 }
