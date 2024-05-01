@@ -1,0 +1,47 @@
+.authorbar {
+  width: 100%;
+  height: 110px;
+  border-top: 1px dashed #dadada;
+  border-bottom: 1px dashed #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.author {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.author h2,
+p {
+  font-size: 24px;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+.menu {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu p {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu a,
+.menu p {
+  color: black;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.menu a:hover {
+  color: #3197d6;
+}
