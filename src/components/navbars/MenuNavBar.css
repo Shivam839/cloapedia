@@ -1,6 +1,8 @@
 .menuNav {
   width: 100vw;
   height: 71px;
+  position: relative;
+  z-index: 1000;
 }
 .menuNav ul {
   display: flex;

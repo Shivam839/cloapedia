@@ -30,9 +30,12 @@
   width: 60%;
   /* padding: 30px; */
 }
-li {
+.authorInfo .iconList {
+  width: 100%;
+}
+.authorInfo .iconList ul li {
   margin-left: 10px;
 }
-li:first-child {
+.authorInfo .iconList ul li:first-child {
   margin-left: 0;
 }

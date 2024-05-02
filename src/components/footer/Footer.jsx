@@ -19,21 +19,21 @@ function Footer() {
             <img src="/image/blog_square_09.jpg" alt="" />
             <div className="info">
               <h3>5 Beautiful buildings you need to before dying</h3>
-              <p>12 Jan, 2016</p>
+              <p style={{ fontSize: "1rem" }}>12 Jan, 2016</p>
             </div>
           </div>
           <div className="postCard">
             <img src="/image/blog_square_09.jpg" alt="" />
             <div className="info">
               <h3>5 Beautiful buildings you need to before dying</h3>
-              <p>12 Jan, 2016</p>
+              <p style={{ fontSize: "1rem" }}>12 Jan, 2016</p>
             </div>
           </div>
           <div className="postCard">
             <img src="/image/blog_square_09.jpg" alt="" />
             <div className="info">
               <h3>5 Beautiful buildings you need to before dying</h3>
-              <p>12 Jan, 2016</p>
+              <p style={{ fontSize: "1rem" }}>12 Jan, 2016</p>
             </div>
           </div>
         </div>
@@ -43,21 +43,21 @@ function Footer() {
             <img src="/image/blog_square_09.jpg" alt="" />
             <div className="info">
               <h3>5 Beautiful buildings you need to before dying</h3>
-              <p>12 Jan, 2016</p>
+              <p style={{ fontSize: "1rem" }}>12 Jan, 2016</p>
             </div>
           </div>
           <div className="postCard">
             <img src="/image/blog_square_09.jpg" alt="" />
             <div className="info">
               <h3>5 Beautiful buildings you need to before dying</h3>
-              <p>12 Jan, 2016</p>
+              <p style={{ fontSize: "1rem" }}>12 Jan, 2016</p>
             </div>
           </div>
           <div className="postCard">
             <img src="/image/blog_square_09.jpg" alt="" />
             <div className="info">
               <h3>5 Beautiful buildings you need to before dying</h3>
-              <p>12 Jan, 2016</p>
+              <p style={{ fontSize: "1rem" }}>12 Jan, 2016</p>
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@ function Footer() {
       </div>
       <div className="newsletter">
         <img src="/image/logo.png" alt="" />
-        <p>
+        <p style={{ fontSize: "1rem" }}>
           Cloapedia is a personal blog for handcrafted, cameramade photography
           content, fashion styles from independent creatives around the world.
         </p>
@@ -126,7 +126,9 @@ function Footer() {
             Subsribe <BiMessageAltCheck />{" "}
           </div>
         </div>
-        <p style={{ marginTop: "30px" }}>© Cloapedia. Design: HTML Design.</p>
+        <p style={{ marginTop: "30px", fontSize: "1rem" }}>
+          © Cloapedia. Design: HTML Design.
+        </p>
       </div>
     </div>
   );

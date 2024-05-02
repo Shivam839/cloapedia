@@ -3,8 +3,10 @@ import NavBar from "../navbars/NavBar";
 import Footer from "../footer/Footer";
 import AuthorBar from "./AuthorBar";
 import AboutAuthor from "./AboutAuthor";
+import AuthorPost from "./AuthorPost";
 
 function BlogAuthor() {
+  const imageSrc = "/image/blog_07.jpg";
   const name = "Jessica";
   return (
     <div>
@@ -31,6 +33,7 @@ function BlogAuthor() {
         >
           {" "}
           <AboutAuthor name={name} />
+          <AuthorPost imageSrc={imageSrc} />
         </div>
         <div
           className="secondSlide"

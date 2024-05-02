@@ -31,7 +31,15 @@ function AboutAuthor({ name }) {
             Thanks for stop Cloapedia!
           </p>
           <div className="iconList">
-            <ul style={{ display: "flex", margin: "0", padding: "0" }}>
+            <ul
+              style={{
+                display: "flex",
+                margin: "0",
+                padding: "0",
+                width: "30%",
+                justifyContent: "space-between",
+              }}
+            >
               <a href="">
                 <li style={{ color: "#4b6ea9" }}>
                   <FaFacebookF />
