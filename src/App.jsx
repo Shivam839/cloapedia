@@ -7,6 +7,7 @@ import BlogAuthor from "./components/routingComponent/BlogAuthor";
 import BlogCatagories01 from "./components/routingComponent/BlogCatagories01";
 import BlogCatagories02 from "./components/routingComponent/BlogCatagories02";
 import BlogCatagories03 from "./components/routingComponent/BlogCatagories03";
+import BlogCatagories04 from "./components/routingComponent/BlogCatagories04";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <BlogAuthor /> */}
       {/* <BlogCatagories01 /> */}
       {/* <BlogCatagories02 /> */}
-      <BlogCatagories03 />
+      {/* <BlogCatagories03 /> */}
+      <BlogCatagories04 />
     </div>
   );
 }
