@@ -2,9 +2,10 @@ import React from "react";
 import "./AuthorBar.css";
 import { IoPersonCircle } from "react-icons/io5";
 
-function AuthorBar({ name }) {
+function AuthorBar({ name, title }) {
   return (
     <div className="authorbar mt-5 mb-5">
+      {/* <h2>{name}</h2> */}
       <div className="author">
         <IoPersonCircle
           style={{
@@ -14,7 +15,7 @@ function AuthorBar({ name }) {
             borderRadius: "50%",
           }}
         />
-        <h2> Author by {name} </h2>
+        <h2> {title}</h2>
         <p
           style={{
             fontWeight: "300",
@@ -27,7 +28,7 @@ function AuthorBar({ name }) {
         </p>
       </div>
       <div className="menu">
-        <a href="#">Home</a>/<a href="#">Blog</a>/<p>Author by {name}</p>
+        <a href="#">Home</a>/<a href="#">Blog</a>/<p>{title}</p>
       </div>
     </div>
   );

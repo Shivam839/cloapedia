@@ -5,7 +5,7 @@
   margin: 30px 20px;
 }
 .adv {
-  width: 50%;
+  width: 65%;
   height: 121px;
   display: flex;
   align-items: center;
@@ -22,4 +22,7 @@
   background-color: aqua;
   width: 120px;
   transform: rotate(90deg);
+}
+.adv img {
+  width: 100%;
 }

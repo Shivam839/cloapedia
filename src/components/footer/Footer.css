@@ -71,7 +71,7 @@
   width: 80%;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted #dadada;
   justify-content: space-between;
   text-decoration: none;
   color: black;

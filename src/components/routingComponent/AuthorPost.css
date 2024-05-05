@@ -1,0 +1,44 @@
+.authorPost {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px dotted #dadada;
+}
+.authorPost img {
+  width: 100%;
+}
+.authorPost .postinfo {
+  width: 85%;
+  height: 230px;
+  position: absolute;
+  bottom: 80px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.authorPost .postinfo .btn p {
+  padding: 10px;
+  margin: 10px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  /* font-family: "roboto", "sherif"; */
+}
+.authorPost .postinfo h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.authorPost .postinfo p a {
+  color: #111111;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+}

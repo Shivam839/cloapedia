@@ -71,32 +71,32 @@ function Footer() {
             </li>
             <li style={{ fontWeight: "400" }}>
               <a href="">
-                Fashion <span>(21)</span>
+                LifeStyle <span>(15)</span>
               </a>
             </li>
             <li style={{ fontWeight: "400" }}>
               <a href="">
-                Fashion <span>(21)</span>
+                Art & Design <span>(31)</span>
               </a>
             </li>
             <li style={{ fontWeight: "400" }}>
               <a href="">
-                Fashion <span>(21)</span>
+                Health & Beauty <span>(22)</span>
               </a>
             </li>
             <li style={{ fontWeight: "400" }}>
               <a href="">
-                Fashion <span>(21)</span>
+                Clothing <span>(66)</span>
               </a>
             </li>
             <li style={{ fontWeight: "400" }}>
               <a href="">
-                Fashion <span>(21)</span>
+                Entertainment <span>(11)</span>
               </a>
             </li>
             <li style={{ fontWeight: "400" }}>
               <a href="">
-                Fashion <span>(21)</span>
+                Food & Drink <span>(87)</span>
               </a>
             </li>
           </ul>
