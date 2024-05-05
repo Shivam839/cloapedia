@@ -184,6 +184,7 @@ function BlogCatagories04() {
           <SideBar />
         </div>
       </div>
+
       <Footer />
     </div>
   );

@@ -8,6 +8,8 @@ import BlogCatagories01 from "./components/routingComponent/BlogCatagories01";
 import BlogCatagories02 from "./components/routingComponent/BlogCatagories02";
 import BlogCatagories03 from "./components/routingComponent/BlogCatagories03";
 import BlogCatagories04 from "./components/routingComponent/BlogCatagories04";
+import BlogCatagories05 from "./components/routingComponent/BlogCatagories05";
+import BlogCatagories06 from "./components/routingComponent/BlogCatagories06";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       {/* <BlogCatagories01 /> */}
       {/* <BlogCatagories02 /> */}
       {/* <BlogCatagories03 /> */}
-      <BlogCatagories04 />
+      {/* <BlogCatagories04 /> */}
+      {/* <BlogCatagories05 /> */}
+      <BlogCatagories06 />
     </div>
   );
 }
