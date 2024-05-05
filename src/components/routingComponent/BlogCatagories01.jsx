@@ -119,17 +119,48 @@ function BlogCatagories01() {
               gap: "10px", // Add gap between items
             }}
           >
-            {fashionPostData.map((data) => (
-              <FashionPost
-                key={data.date}
-                title={data.title}
-                imageSrc={data.imageSrc}
-                description={data.description}
-                name={data.name}
-                date={data.date}
-              />
-            ))}
+            <div
+              className="post"
+              id="post-1"
+              style={{ width: "48%", display: "flex", flexDirection: "column" }}
+            >
+              {fashionPostData.map((data, i) => {
+                if (i % 2 !== 0) {
+                  return (
+                    <FashionPost
+                      key={data.date}
+                      title={data.title}
+                      imageSrc={data.imageSrc}
+                      description={data.description}
+                      name={data.name}
+                      date={data.date}
+                    />
+                  );
+                }
+              })}
+            </div>
+            <div
+              className="post"
+              id="post-2"
+              style={{ width: "48%", display: "flex", flexDirection: "column" }}
+            >
+              {fashionPostData.map((data, i) => {
+                if (i % 2 === 0) {
+                  return (
+                    <FashionPost
+                      key={data.date}
+                      title={data.title}
+                      imageSrc={data.imageSrc}
+                      description={data.description}
+                      name={data.name}
+                      date={data.date}
+                    />
+                  );
+                }
+              })}
+            </div>
           </div>
+          ;
         </div>
       </div>
       <Footer />

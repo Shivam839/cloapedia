@@ -5,7 +5,7 @@ function FashionPost({ title, date, name, description, imageSrc }) {
     <div
       className="card"
       style={{
-        width: "calc(45% - 10px)", // Adjust width to account for gap between items
+        width: "100%", // Adjust width to account for gap between items
         border: "none",
         margin: "0",
         padding: "0",
