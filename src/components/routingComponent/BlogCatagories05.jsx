@@ -48,7 +48,7 @@ function BlogCatagories05() {
   ];
 
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <NavBar />
       <AuthorBar title={title} name={name} />
       <div

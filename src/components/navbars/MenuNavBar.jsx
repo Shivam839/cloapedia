@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link from React Router
 import "./MenuNavBar.css";
 import { FaAngleDown } from "react-icons/fa";
 import { MdSlowMotionVideo } from "react-icons/md";
@@ -22,7 +23,11 @@ function MenuNavBar() {
   return (
     <div className="menuNav">
       <ul>
-        <li>Home</li>
+        <li>
+          <Link to="/" style={{ textDecoration: "none", color: "#000" }}>
+            Home
+          </Link>
+        </li>
         <li onClick={handleCategoryClick}>
           Category{" "}
           <FaAngleDown style={{ fontSize: "15px", fontWeight: "light" }} />
@@ -31,14 +36,39 @@ function MenuNavBar() {
           Features{" "}
           <FaAngleDown style={{ fontSize: "15px", fontWeight: "light" }} />
         </li>
-        <li>Fashion</li>
-        <li>Food</li>
-        <li>Lifestyle</li>
-        <li>Travel</li>
         <li>
-          <MdSlowMotionVideo /> Vlogs
+          <Link to="/fashion" style={{ textDecoration: "none", color: "#000" }}>
+            Fashion
+          </Link>
         </li>
-        <li>Health</li>
+        <li>
+          <Link to="/food" style={{ textDecoration: "none", color: "#000" }}>
+            Food
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/lifestyle"
+            style={{ textDecoration: "none", color: "#000" }}
+          >
+            Lifestyle
+          </Link>
+        </li>
+        <li>
+          <Link to="/travel" style={{ textDecoration: "none", color: "#000" }}>
+            Travel
+          </Link>
+        </li>
+        <li>
+          <Link to="/vlogs" style={{ textDecoration: "none", color: "#000" }}>
+            <MdSlowMotionVideo /> Vlogs
+          </Link>
+        </li>
+        <li>
+          <Link to="/health" style={{ textDecoration: "none", color: "#000" }}>
+            Health
+          </Link>
+        </li>
       </ul>
       {showCategories && <Categories />}
       {showFeatures && <Features />}

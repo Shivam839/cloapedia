@@ -13,6 +13,9 @@
   margin: 0 15px;
   font-weight: 600;
 }
+.menuNav ul li {
+  text-decoration: none;
+}
 .menuNav ul li:nth-child(1):hover,
 .menuNav ul li:nth-child(4):hover,
 .menuNav ul li:nth-child(9):hover {
