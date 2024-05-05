@@ -103,6 +103,9 @@
   font-weight: 700;
   margin-top: 5px;
 }
+.item h3:hover {
+  text-decoration: underline;
+}
 .item p {
   font-size: small;
   font-weight: 700;

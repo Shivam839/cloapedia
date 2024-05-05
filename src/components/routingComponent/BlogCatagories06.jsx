@@ -66,7 +66,12 @@ function BlogCatagories06() {
   ];
   return (
     <div
-      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        overflowX: "hidden",
+      }}
     >
       <NavBar />
       <AuthorBar title={title} name={name} />

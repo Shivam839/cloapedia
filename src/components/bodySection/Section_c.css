@@ -80,3 +80,7 @@ span {
 .blogpost img {
   width: 100%;
 }
+.infotravel h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

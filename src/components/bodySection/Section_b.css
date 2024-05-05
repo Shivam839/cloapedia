@@ -46,3 +46,9 @@ span {
   flex-wrap: wrap;
   flex-direction: row;
 }
+.card-title {
+  font-weight: 700;
+}
+.card-title:hover {
+  text-decoration: underline;
+}
