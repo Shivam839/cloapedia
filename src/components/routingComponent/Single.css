@@ -1,0 +1,197 @@
+.singleSection {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.singleSection ul {
+  display: flex;
+  gap: 10px;
+}
+.singleSection ul li {
+  font-size: 12px;
+  color: #a3a5a8;
+}
+.singleSection h4 {
+  background-color: #2ad2c9;
+  width: 90px;
+  font-size: 15px;
+  padding: 2px 1em;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+.singleSection h2 {
+  font-size: 41px;
+  font-weight: bold;
+}
+.sharebutton {
+  display: flex;
+  gap: 10px;
+}
+.sharebutton button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.singleSection img {
+  margin: 20px;
+  width: 100%;
+}
+.singleSection p {
+  margin-top: 20px;
+}
+.singleSection h3 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.seccondList li {
+  /* margin-top: 20px; */
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.tagname {
+  display: flex;
+  gap: 10px;
+}
+.singlepost {
+  display: flex;
+  padding: 10px 20px;
+  gap: 10px;
+  width: 100%;
+  border: 1px dotted #dadada;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+.singlepost .postCard {
+  width: 100%; /* Ensure the postCard fills the container */
+  display: flex;
+}
+
+.singlepost .postCard img {
+  padding: 10px;
+  background-color: #fff;
+  width: 25%;
+  height: 60%; /* Ensure the image fills the height of the container */
+  object-fit: cover; /* Prevent distortion of images */
+}
+
+.singlepost .postCard .info {
+  padding: 10px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+.singlepost .postCard .info h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+  /* margin-bottom: 0.5rem; Add some space below the title */
+}
+.singlepost .postCard .info p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.likePost {
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted #dadada;
+  margin: 10px 0 30px 0;
+  position: relative;
+  padding: 50px;
+}
+.likePost h3 {
+  font-size: 16px;
+  background: #edeff2;
+  padding: 10px 24px;
+  width: 180px;
+  top: -40px;
+  position: absolute;
+}
+.likePost .postsInLikePost {
+  display: flex;
+  /* gap: 10px; */
+  justify-content: space-around;
+}
+.likePost .postsInLikePost .card {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.likePost .postsInLikePost .card img {
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 0 20px 0 !important;
+}
+
+.likePost .postsInLikePost .card .card-body {
+  padding: 0 !important;
+}
+.likePost .postsInLikePost .card .card-body h5 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 21px !important;
+  font-weight: 700;
+  padding: 0;
+}
+.likePost .postsInLikePost .card .card-body p {
+  margin: 5px !important;
+  font-size: 11px !important;
+}
+.singleSection .commentSection {
+  width: 100%;
+  min-height: 400px;
+  border: 1px dotted #dadada;
+  margin: 10px 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 50px;
+}
+.singleSection .commentSection h3 {
+  font-size: 16px;
+  background: #edeff2;
+  padding: 10px 24px;
+  width: 150px;
+  top: -40px;
+  text-align: center;
+  position: absolute;
+}
+.singleSection .contactForm {
+  margin: 20px;
+  border: 1px dotted #dadada;
+  position: relative;
+  padding: 50px;
+  width: 100%;
+  height: 500px;
+}
+.singleSection .contactForm h3 {
+  font-size: 16px;
+  background: #edeff2;
+  padding: 10px 14px;
+  width: 200px;
+  top: -40px;
+  text-align: center;
+  position: absolute;
+}
+.singleSection .contactForm input {
+  width: 100%;
+  margin: 16px 0;
+  padding: 16px;
+  outline: none;
+  border: 1px dotted #dadada;
+}
+.singleSection .contactForm input:nth-last-child(1) {
+  height: 120px;
+}

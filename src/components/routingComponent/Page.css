@@ -1,0 +1,21 @@
+.pagePost p {
+  font-size: 15px;
+  color: #5e5e5e;
+  margin: 20px 0;
+}
+.pagePost h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.pagePost ul li {
+  font-size: 15px;
+  color: #5e5e5e;
+  margin: 10px 0;
+}
+.postPage1 {
+  display: flex;
+}
+.postPage2 {
+  padding: 0 10px;
+}

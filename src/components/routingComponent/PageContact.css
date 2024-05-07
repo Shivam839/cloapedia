@@ -1,0 +1,48 @@
+.contactSection1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.contactsection_1_a {
+  width: 45%;
+  padding: 5px 10px;
+}
+.contactSection2 {
+  width: 100%;
+  height: 92px;
+  border: 1px dotted #dadada;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+.contactSection2 p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+}
+.contactSection2::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  background-color: skyblue;
+  height: 92px;
+  left: 0;
+}
+.contactForm {
+  margin-top: 20px;
+}
+.contactForm input {
+  width: 100%;
+  margin: 16px 0;
+  padding: 16px;
+  outline: none;
+  border: 1px dotted #dadada;
+}
+.contactForm input:nth-last-child(1) {
+  height: 120px;
+}

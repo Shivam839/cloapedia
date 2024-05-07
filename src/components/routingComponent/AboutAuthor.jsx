@@ -6,18 +6,17 @@ import {
   FaTwitter,
   FaInstagram,
   FaGooglePlusG,
-  FaLeaf,
 } from "react-icons/fa";
 import { TfiYoutube } from "react-icons/tfi";
 
 function AboutAuthor({ name }) {
   return (
     <div className="authorBox">
-      <h4 className="small-title">About Author</h4>
+      <h5 className="small-title">About Author</h5>
       <div className="authorProfile">
         <img src="/image/author.jpg" alt="" style={{ borderRadius: "50%" }} />
         <div className="authorInfo">
-          <h4>{name}</h4>
+          <h3>{name}</h3>
           <p
             style={{
               fontSize: "15px",
