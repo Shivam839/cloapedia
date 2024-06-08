@@ -5,6 +5,7 @@ import { FaAngleDown } from "react-icons/fa";
 import { MdSlowMotionVideo } from "react-icons/md";
 import Categories from "./Categories";
 import Features from "./Features";
+import { TiThMenu } from "react-icons/ti";
 
 function MenuNavBar() {
   const [showCategories, setShowCategories] = useState(false);
@@ -19,10 +20,36 @@ function MenuNavBar() {
     setShowFeatures(!showFeatures);
     setShowCategories(false);
   };
+  const handleMenuBar = () => {
+    console.log("handle menu bar");
+
+    document.querySelector(".menuNavList").classList.toggle("disactive");
+    const menuNavList = document.querySelector(".menuNavList");
+    console.log(menuNavList); // Check the result in the console
+  };
 
   return (
     <div className="menuNav">
-      <ul>
+      <button
+        style={{
+          width: "60px",
+          height: "50px",
+          background: "#3197d6",
+          border: "none",
+          borderRadius: "5px",
+          display: "none",
+        }}
+        onClick={handleMenuBar}
+      >
+        {" "}
+        <TiThMenu
+          style={{
+            fontSize: "2rem",
+            color: "#fff",
+          }}
+        />
+      </button>
+      <ul className="menuNavList">
         <li>
           <Link to="/" style={{ textDecoration: "none", color: "#000" }}>
             Home

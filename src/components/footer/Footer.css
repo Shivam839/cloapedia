@@ -122,3 +122,32 @@
   font-weight: 300;
   margin-left: 15px;
 }
+
+@media only screen and (max-width: 433px) {
+  .footer .post {
+    flex-direction: column;
+    width: 100%;
+  }
+  .RecentPost {
+    width: 100%;
+  }
+  .footer {
+    height: auto;
+  }
+  .newsletter {
+    width: 100%;
+    padding: 10px;
+  }
+  .newsletter .inputEmail {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .newsletter .inputEmail input {
+    width: 90%;
+  }
+  .newsletter .inputEmail .suscribe {
+    margin-top: 20px;
+    width: 50%;
+  }
+}

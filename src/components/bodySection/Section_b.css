@@ -1,29 +1,30 @@
 .section_b {
-  width: 100vw;
+  width: 100%;
   display: flex;
-  padding: 20px;
+  padding-top: 20px; /* Changed padding to apply only top padding */
+  padding-bottom: 20px; /* Changed padding to apply only bottom padding */
   align-items: center;
   justify-content: space-evenly;
 }
+
 .lifestyle {
-  width: 40%;
+  width: 40%; /* Consider using max-width instead for better responsiveness */
   padding: 20px;
-  /* border: 1px solid red; */
 }
+
 .lifestyle .blog {
   margin-top: 20px;
   display: flex;
   width: 100%;
   flex-direction: column;
 }
+
 .fashion {
-  width: 40%;
+  width: 40%; /* Consider using max-width instead for better responsiveness */
   padding: 20px;
   height: 1070px;
-  /* border: 1px solid red; */
-  /* display: flex; */
-  /* flex-direction: column; */
 }
+
 span {
   color: white;
   padding: 0.1rem 1.3rem;
@@ -39,6 +40,7 @@ span {
 .fashion span {
   background-color: #deacca;
 }
+
 .fashion .post {
   margin-top: 20px;
   display: flex;
@@ -46,9 +48,52 @@ span {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 .card-title {
   font-weight: 700;
 }
+
 .card-title:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 435px) {
+  .section_b {
+    flex-direction: column;
+    padding: 0;
+    margin: 100px 0;
+    width: 100%;
+  }
+
+  .fashion {
+    height: auto;
+  }
+  .fashion .post {
+    flex-direction: column;
+  }
+  .fashion .post .card {
+    width: 100% !important;
+  }
+  .lifestyle {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  .fashion {
+    width: 100%;
+  }
+  .lifestyle .card {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 1030px) {
+  .section_b {
+    padding: 20px;
+    gap: 10px;
+  }
+  .fashion .post .card {
+    width: 40%;
+  }
 }

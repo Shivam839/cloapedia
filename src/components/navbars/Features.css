@@ -49,3 +49,11 @@
   background-color: aliceblue;
   transform: translate(835px, -260px);
 }
+@media screen and (max-width: 400px) {
+  .features {
+    transform: translate(190px, -270px);
+  }
+  .singleBlog {
+    transform: translate(360px, -570px);
+  }
+}

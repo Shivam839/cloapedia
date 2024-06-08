@@ -123,3 +123,8 @@
 #widjet-5 .RecentPost ul li a span {
   color: black;
 }
+@media screen and (max-width: 432px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -5,6 +5,7 @@ import AuthorBar from "./AuthorBar";
 import SideBar from "./SideBar";
 import Advertisement from "../bodySection/Advertisement";
 import FashionPost from "./FashionPost";
+import "./BlogCatagories010.css";
 
 function BlogCatagories01() {
   const title = "Fashion";

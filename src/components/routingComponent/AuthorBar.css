@@ -45,3 +45,21 @@
 .menu a:hover {
   color: #3197d6;
 }
+
+@media screen and (max-width: 432px) {
+  .authorbar {
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  .author {
+    flex-direction: column;
+  }
+  .author p {
+    display: none;
+  }
+  .menu {
+    width: 70%;
+  }
+}

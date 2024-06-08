@@ -26,3 +26,21 @@
 .adv img {
   width: 100%;
 }
+@media only screen and (max-width: 400px) {
+  .adv {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .advertisement {
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+  }
+  .adv {
+    width: 100%;
+  }
+  .adv img {
+    height: 70%;
+  }
+}
