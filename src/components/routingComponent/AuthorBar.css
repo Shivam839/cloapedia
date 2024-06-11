@@ -48,18 +48,27 @@
 
 @media screen and (max-width: 432px) {
   .authorbar {
-    width: 100%;
     justify-content: space-around;
     margin: 0;
     padding: 0;
   }
   .author {
+    width: 45%;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .author h2,
+  .author p {
+    font-size: 20px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
   }
   .author p {
     display: none;
   }
   .menu {
-    width: 70%;
+    width: 50%;
   }
 }

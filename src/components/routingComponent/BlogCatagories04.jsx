@@ -6,6 +6,8 @@ import SideBar from "./SideBar";
 import Advertisement from "../bodySection/Advertisement";
 import TravelPost from "./TravelPost";
 
+import "./BlogCatagories04.css";
+
 function BlogCatagories04() {
   const title = "Travel";
   const name = "Travel";

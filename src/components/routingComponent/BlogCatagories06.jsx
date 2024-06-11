@@ -3,6 +3,7 @@ import NavBar from "../navbars/NavBar";
 import Footer from "../footer/Footer";
 import AuthorBar from "./AuthorBar";
 import Healthpost from "./Healthpost";
+import "./BlogCatagories06.css";
 
 function BlogCatagories06() {
   const name = "Health";

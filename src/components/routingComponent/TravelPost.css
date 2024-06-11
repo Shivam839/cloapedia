@@ -1,0 +1,9 @@
+@media screen and (max-width: 432px) {
+  #travelp {
+    width: 100% !important;
+    gap: 1px !important;
+    margin: 0;
+    padding: 0;
+    height: auto !important;
+  }
+}

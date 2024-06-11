@@ -1,8 +1,9 @@
 import React from "react";
+import "./Healthpost.css";
 
 function Healthpost({ tag, imageSrc, title, author, date }) {
   return (
-    <div style={{ width: "30%" }}>
+    <div id="healthp" style={{ width: "30%" }}>
       <div
         className="card"
         style={{ width: "100%", border: "none", borderRadius: "0px" }}

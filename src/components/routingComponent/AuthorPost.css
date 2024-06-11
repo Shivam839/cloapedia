@@ -42,3 +42,35 @@
   text-decoration: none;
   font-weight: 600;
 }
+@media screen and (max-width: 432px) {
+  .authorPost {
+    margin: 30px 0;
+    padding: 0;
+    width: 375px;
+    height: auto;
+  }
+  .authorPost img {
+    height: 397px;
+    width: 335px;
+  }
+  .authorPost .postinfo {
+    width: 375px;
+    position: relative;
+  }
+
+  .authorPost .postinfo .btn {
+    width: 370px !important;
+  }
+  .authorPost .postinfo .btn p {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    font-size: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2px;
+  }
+  .authorPost .postinfo p a {
+    margin: 0;
+  }
+}

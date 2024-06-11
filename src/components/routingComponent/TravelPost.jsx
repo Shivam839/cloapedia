@@ -1,8 +1,9 @@
 import React from "react";
+import "./TravelPost.css";
 
 function TravelPost({ imageSrc, title, name, description, date, author }) {
   return (
-    <div style={{ width: "45%", height: "550px" }}>
+    <div id="travelp" style={{ width: "45%", height: "550px" }}>
       <div
         className="card"
         style={{ width: "100%", border: "none", borderRadius: "0px" }}

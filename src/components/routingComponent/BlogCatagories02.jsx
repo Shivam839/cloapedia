@@ -5,6 +5,7 @@ import AuthorBar from "./AuthorBar";
 import SideBar from "./SideBar";
 import FoodBlog from "./FoodBlog";
 import Advertisement from "../bodySection/Advertisement";
+import "./BlogCatagories02.css";
 
 function BlogCatagories02() {
   const title = "Food & Drink";
@@ -90,7 +91,7 @@ function BlogCatagories02() {
           //   alignItems: "center",
           justifyContent: "space-around",
           padding: "0 50px",
-          height: "2500px",
+          height: "",
         }}
       >
         <div

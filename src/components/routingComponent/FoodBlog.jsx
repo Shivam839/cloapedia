@@ -1,4 +1,5 @@
 import React from "react";
+import "./FoodBlog.css";
 
 function FoodBlog({ title, imageSrc, description, name, author, date }) {
   return (

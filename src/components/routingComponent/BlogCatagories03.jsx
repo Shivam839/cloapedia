@@ -4,6 +4,7 @@ import AuthorBar from "./AuthorBar";
 import Footer from "../footer/Footer";
 import SideBar from "./SideBar";
 import AuthorPost from "./AuthorPost";
+import "./BlogCatagories02.css";
 
 function BlogCatagories03() {
   const imageSrc = "/image/blog_07.jpg";

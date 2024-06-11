@@ -1,0 +1,13 @@
+@media screen and (max-width: 432px) {
+  .mainpage {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto;
+  }
+  .firstSlide {
+    width: 100%;
+  }
+  .travelsPost {
+    flex-direction: column !important;
+  }
+}

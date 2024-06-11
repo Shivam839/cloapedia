@@ -1,0 +1,5 @@
+@media screen and (max-width: 432px) {
+  #healthp {
+    width: 100% !important;
+  }
+}
